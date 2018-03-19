@@ -1,0 +1,19 @@
+1. Commands
+   http://mis.twse.com.tw/stock/api/getStock.jsp?ch=2330.tw&json=1&_=20180319
+
+   {"msgArray":[{"ex":"tse",
+                 "d":"20180319", // date
+                 "it":"12",
+                 "n":"台積電",
+                 "i":"24",
+                 "ip":"0",
+                 "w":"229.50",
+                 "u":"280.50",
+                 "t":"07:50:00",
+                 "p":"0",
+                 "ch":"2330.tw",
+                 "key":"tse_2330.tw",
+                 "y":"255.00"}],
+    "rtmessage":"OK",
+    "queryTime":{"stockDetail":1060,"totalMicroTime":1060},
+    "rtcode":"0000"} // 0000 = success
